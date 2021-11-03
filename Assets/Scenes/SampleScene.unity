@@ -5224,7 +5224,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 258785002}
           m_TargetAssemblyTypeName: UnityChanController, Assembly-CSharp
-          m_MethodName: GetMyLeftButtonUp
+          m_MethodName: GetMyLeftButtonDown
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -5240,7 +5240,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 258785002}
           m_TargetAssemblyTypeName: UnityChanController, Assembly-CSharp
-          m_MethodName: GetMyLeftButtonDown
+          m_MethodName: GetMyLeftButtonUp
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
