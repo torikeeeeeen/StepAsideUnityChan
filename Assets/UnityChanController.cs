@@ -90,7 +90,7 @@ public class UnityChanController : MonoBehaviour
 
         else if ((Input.GetKey(KeyCode.RightArrow) || this.isRButtonDown) && this.transform.position.x < this.movableRange)
         {
-            // 左方向への速度を代入
+            // 右方向への速度を代入
             inputVelocityX = this.velocityX;
         }
 
@@ -167,7 +167,7 @@ public class UnityChanController : MonoBehaviour
         this.isJButtonDown = false;
     }
 
-    // 左ボタンを押した場合の処理
+    // 左ボタンを押し続けた場合の処理
     public void GetMyLeftButtonDown()
     {
         this.isLButtonDown = true;
